@@ -1,0 +1,176 @@
+
+
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact - NURSEINFO</title>
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<!-- Google Fonts for a futuristic look -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+<style>
+  /* Reset and base styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 40px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3em;
+    color: #00ffe0;
+    text-shadow: 0 0 10px #00ffe0, 0 0 20px #00ffe0;
+  }
+
+  /* About section styling */
+  .about-section {
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+    background: #1f1f1f;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  }
+
+  .about-section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #00ffe0;
+  }
+
+  .about-section p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+
+  /* Contact cards container */
+  .contact-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  /* Individual contact card styling */
+  .card {
+    background: #2c2c2c;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+  }
+
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    border-color: #00ffe0;
+  }
+
+  /* Icons in cards */
+  .card i {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #00ffe0;
+  }
+
+  /* Headings in cards */
+  .card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  /* Contact detail links */
+  .contact-link {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .contact-link:hover {
+    color: #00ffe0;
+    transform: scale(1.05);
+  }
+
+  /* Responsive styles */
+  @media(max-width: 768px) {
+    .contact-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 80%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>Contact the Admin</h1>
+
+<!-- About the Creator -->
+<div class="about-section">
+  <h2>About the Creator</h2>
+  <p>
+    Hi! I'm Ankit Yadav, a passionate B.Sc Nursing student at Shekhawati Medical Training Institute, affiliated with RUHS (Rajasthan University of Health and Science), and INC, New Delhi. I am currently in my 2nd year, aged 19. I am dedicated to helping fellow nursing students through this website.
+  </p>
+  <p>
+    Feel free to reach out through any of the contact methods below!
+  </p>
+</div>
+
+<!-- Contact Cards -->
+<div class="contact-cards">
+  <!-- Email -->
+  <div class="card">
+    <i class="fas fa-envelope"></i>
+    <h3>Email</h3>
+    <a class="contact-link" href="mailto:ankiyadav4518@gmail.com">ankiyadav4518@gmail.com</a>
+  </div>
+  <!-- Instagram -->
+  <div class="card">
+    <i class="fab fa-instagram"></i>
+    <h3>Instagram</h3>
+    <a class="contact-link" href="https://instagram.com/@real_ankit18" target="_blank">@real_ankit18</a>
+  </div>
+  <!-- Telegram -->
+  <div class="card">
+    <i class="fab fa-telegram"></i>
+    <h3>Telegram</h3>
+    <a class="contact-link" href="https://t.me/Stubborn4518" target="_blank">@Stubborn4518</a>
+  </div>
+  <!-- WhatsApp -->
+  <div class="card">
+    <i class="fab fa-whatsapp"></i>
+    <h3>WhatsApp</h3>
+    <a class="contact-link" href="https://wa.me/916375581188" target="_blank">+91 6375581188</a>
+  </div>
+  <!-- Contact Number -->
+  <div class="card">
+    <i class="fas fa-phone"></i>
+    <h3>Contact Number</h3>
+    <a class="contact-link" href="tel:+916375581188">+91 6375581188</a>
+  </div>
+</div>
+
+</body>
+</html>

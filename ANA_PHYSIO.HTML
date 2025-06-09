@@ -1,0 +1,212 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Anatomy & Physiology</title>
+<!-- Google Fonts for a futuristic look -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<style>
+  body {
+    background-color: #121212;
+    font-family: 'Orbitron', sans-serif;
+    color: #e0e0e0;
+    margin: 20px;
+    line-height: 1.6;
+  }
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #00ffe0;
+    text-shadow: 0 0 10px #00ffe0, 0 0 20px #00ffe0;
+  }
+
+  /* Vesalius Image & Description */
+  .vesalius-section {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .vesalius-img {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vesalius-img img {
+    max-width: 250px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #00ffe0;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .vesalius-img img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.8);
+  }
+  .vesalius-caption {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 8px;
+  }
+  .vesalius-desc {
+    flex: 2 1 400px;
+    padding: 10px;
+  }
+  /* Chapters list styling */
+  .chapters {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  }
+  .chapters h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00ffe0;
+  }
+  ol {
+    padding-left: 20px;
+  }
+  ol li {
+    margin-bottom: 10px;
+  }
+  ol li a {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 1.2em;
+    transition: color 0.3s, transform 0.2s;
+  }
+  ol li a:hover {
+    color: #00ffe0;
+    transform: scale(1.02);
+  }
+
+  /* Additional features grid */
+  .features-grid {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .feature-card {
+    background: #2c2c2c;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+  }
+  .feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    border-color: #00ffe0;
+  }
+  .feature-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #00ffe0;
+    animation: float 3s ease-in-out infinite;
+  }
+  .feature-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .feature-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #00ffe0;
+    color: #121212;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  .feature-link:hover {
+    background-color: #00c4b4;
+    transform: scale(1.02);
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @media(max-width: 768px) {
+    .features-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>Anatomy & Physiology</h1>
+
+<!-- Vesalius Image & Description -->
+<div class="vesalius-section">
+  <div class="vesalius-img">
+    <img src="https://envs.sh/aCn.jpg/IMG20250608245.jpg" alt="Andreas Vesalius" />
+    <div class="vesalius-caption">
+      <strong>Andreas Vesalius</strong> - The father of modern anatomy who revolutionized understanding of the human body.
+    </div>
+  </div>
+  <div class="vesalius-desc">
+    <p>
+      Andreas Vesalius (1514–1564) was a pioneering anatomist whose detailed studies, illustrations, and dissections laid the foundation for modern anatomy. His work challenged centuries of misconceptions and advanced medicine significantly.
+    </p>
+  </div>
+</div>
+
+<!-- Chapters list -->
+<div class="chapters" style="max-width:900px; margin:auto; padding:20px; background:#1f1f1f; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.6);">
+  <h2 style="text-align:center; margin-bottom:20px; color:#00ffe0;">Chapters of Anatomy & Physiology</h2>
+  <ol style="padding-left:20px;">
+    <li><a href="#">Introduction to Anatomy & Physiology</a></li>
+    <li><a href="https://t.me/NurseInfo_official/67?single">Cell Structure and Function</a></li>
+    <li><a href="https://t.me/NurseInfo_official/25">Tissues and Membranes</a></li>
+    <li><a href="https://t.me/NurseInfo_official/67?single">Skeletal System</a></li>
+    <li><a href="#">Muscular System</a></li>
+    <li><a href="https://t.me/NurseInfo_official/59?single">Nervous System</a></li>
+    <li><a href="https://t.me/NurseInfo_official/59?single">Endocrine System</a></li>
+    <li><a href="https://t.me/NurseInfo_official/44">Cardiovascular System</a></li>
+    <li><a href="https://t.me/NurseInfo_official/36">Lymphatic & Immune System</a></li>
+    <li><a href="https://t.me/NurseInfo_official/55?single">Respiratory System</a></li>
+    <li><a href="https://t.me/NurseInfo_official/24">Digestive System</a></li>
+    <li><a href="https://t.me/NurseInfo_official/46">Urinary System</a></li>
+    <li><a href="https://t.me/NurseInfo_official/72">Reproductive System</a></li>
+  </ol>
+</div>
+
+<!-- Additional features with icons and links -->
+<div class="features-grid">
+
+  <!-- Question Banks -->
+  <div class="feature-card">
+    <div class="feature-icon"><i class="fas fa-question-circle"></i></div>
+    <div class="feature-title">Question Banks</div>
+    <a href="https://t.me/NurseInfo_official/18?single" class="feature-link">Open Question Banks</a>
+  </div>
+
+</div>
+
+</body>
+</html>
